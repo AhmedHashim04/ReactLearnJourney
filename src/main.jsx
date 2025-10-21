@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Header from './Header.jsx'
 import App from './App.jsx'
+import './style.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -9,6 +10,6 @@ createRoot(document.getElementById('root')).render(
     <Header />
     <App />
 
-    
+
   </StrictMode>,
 )
