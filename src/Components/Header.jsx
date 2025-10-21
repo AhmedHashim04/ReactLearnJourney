@@ -1,6 +1,6 @@
  
- import image from '../image.png';
- function Header() {
+ import image from '../assets/image.png';
+ export default function Header() {
     return (
     <>
         <ul>
@@ -8,7 +8,8 @@
           <li >About</li>
           <li >Contact</li>
         </ul>
+        <img src={image} alt="Logo" width="200" style={{margin: '0 10px 0 0'}} />
+        <img src={image} alt="Logo" width="200" />
       </>
     );
   }
-export default Header;
