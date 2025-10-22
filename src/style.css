@@ -20,3 +20,13 @@ ul li{
     border-radius: 15px;
     box-shadow: 5px 5px 15px gray;
 }
+
+.cardStyle h1{
+    color: blue;
+    font-size: 2em;
+    margin: 0;
+}
+.cardStyle p{
+    color: green;
+    font-size: 1.2em;
+}
