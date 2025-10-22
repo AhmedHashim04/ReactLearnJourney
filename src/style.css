@@ -24,9 +24,20 @@ ul li{
 .cardStyle h1{
     color: blue;
     font-size: 2em;
+    
     margin: 0;
 }
 .cardStyle p{
     color: green;
     font-size: 1.2em;
+    display:inline-block;
+    margin: 0 20px 0 0px;
+
+}
+.cardStyle div img{
+    width: 10%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    margin-top: 10px;
+
 }
