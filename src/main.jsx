@@ -9,11 +9,11 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <div className='container'>
 
+      <Container />
       <Header game={"Contact"} desc={"Contact us for more information"} />
       <Header game={"Mohamed"} desc={"Learn more about Mohamed"} />
       <Header game={"Ahmed"} desc={"Discover Ahmed's profile"} />
       <App />
-      <Container />
     </div>
 
 

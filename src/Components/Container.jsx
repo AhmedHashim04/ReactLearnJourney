@@ -2,20 +2,25 @@ import { useState } from "react"
 
 export default function Container(params) {
 
-    // const [Ahmed,funcAhmed]= useState("Hello")
-    // function Toggle() {
-    //     funcAhmed(prev => prev === "Hello" ? "4444444444" : "Hello")
-    // }
-    const [Val, setVal] = useState("Mosa")
-    function chgVal() {
-        setVal(prev => prev === "Mosa" ? "TOS" : "Mosa")
+    const [Numb, fumb] = useState("hhh");
+    function pack(){
+
+        if (Numb === "hhh")
+            fumb("NOo");
+        else{
+            fumb("hhh");
+
+        }
     }
     return (
 
         <>
         
-        <div onClick={chgVal}>
-            {Val}
+        <div
+         onClick={pack}
+        style={{color:Numb === "hhh"? "red": "gold", fontSize:"80px"}}
+        >
+            {Numb}
         </div>
         
         </>
