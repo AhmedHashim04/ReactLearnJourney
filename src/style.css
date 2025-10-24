@@ -41,3 +41,41 @@ ul li{
     margin-top: 10px;
 
 }
+.FormSignup {
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px gray;
+    background-color: white;
+}
+
+.signupForm input[type="text"],
+.signupForm input[type="email"],
+.signupForm input[type="password"] {
+    color: red;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+.signupForm label {
+    font-family: Cairo, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.signupForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signupForm button:hover {
+    background-color: #45a049;
+}
